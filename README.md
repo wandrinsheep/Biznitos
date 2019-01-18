@@ -18,12 +18,17 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 #whats functional
 
- *database relations users & csvs(primary key references user_id )
- *setup user template accessible through "/users" , eg. localhost:4000/users. no links yet added to directly work with.
- *users can be added, deleted, edited
- *user passwords are simple plaintext at the moment. library to hash passwords before saving to be added as well as session control and authorization access.
+    Functional and partially functional:
+
+    *database relations users & csvs(primary key references user_id )
+    *setup user template accessible through "/users" , eg. localhost:4000/users. no links yet added to directly work with.
+    *users can be added, deleted, edited
+    *user passwords are simple plaintext at the moment. library to hash passwords before saving to be added as well as session control and authorization access.
 
  #not yet implemented
+
+    To be added:
+
     *CSV file upload after signup
     *Display user information from database
 
